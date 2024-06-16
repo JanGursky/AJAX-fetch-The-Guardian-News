@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 600px;
+  margin: 60px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 2rem;
+
+}
+
+a {
+  font-size: 1.25rem;
+  color: black;
+  text-decoration: none;
+  opacity: 0.5;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+
+.singleelm {
+  margin-top: 0.5rem;
+}
